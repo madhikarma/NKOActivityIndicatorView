@@ -1,11 +1,12 @@
-// swift-tools-version:5.3
-
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
 	name: "NKOActivityIndicatorView",
+    defaultLocalization: "en",
 	platforms: [
-        .iOS(.v14)
+        .iOS(.v8),
+        .tvOS(.v9)
     ],
     products: [
         .library(name: "NKOActivityIndicatorView",
@@ -14,5 +15,10 @@ let package = Package(
 	targets: [
         .target(
            name: "NKOActivityIndicatorView",
-           path: "NKOActivityIndicatorView"), 
+           path: "NKOActivityIndicatorView",
+           resources: [
+               .process("Images.xcassets")
+           ]
+        )
+    ]
 )

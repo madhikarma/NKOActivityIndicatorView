@@ -85,7 +85,7 @@ typedef NS_ENUM(NSUInteger, LYExampleControllerColor) {
 }
 
 - (IBAction)_tappedFollowMeButton:(UIButton *)sender {
-     [[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://twitter.com/carlostify"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://twitter.com/carlostify"] options:nil completionHandler:nil];
 }
 
 - (IBAction)_tappedBorderStepper:(UIStepper *)sender {

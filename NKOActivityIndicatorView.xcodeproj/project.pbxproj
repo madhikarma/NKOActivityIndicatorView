@@ -8,52 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		079163501D660C4900E7B49D /* NKOActivityIndicatorView-Umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0791634F1D660C4900E7B49D /* NKOActivityIndicatorView-Umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		079163541D660C4900E7B49D /* NKOActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0791634D1D660C4900E7B49D /* NKOActivityIndicatorView.framework */; };
-		079163551D660C4900E7B49D /* NKOActivityIndicatorView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0791634D1D660C4900E7B49D /* NKOActivityIndicatorView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0791635A1D660C5200E7B49D /* NKOActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C161DDC11B73FCC000693645 /* NKOActivityIndicatorView.m */; };
 		0791635B1D660C5500E7B49D /* NKOActivityIndicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C161DDC41B7561F100693645 /* NKOActivityIndicatorLayer.m */; };
 		0791635D1D660DFF00E7B49D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0791635C1D660DFF00E7B49D /* UIKit.framework */; };
 		0791635F1D660E0600E7B49D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0791635E1D660E0600E7B49D /* Foundation.framework */; };
-		C161DD9D1B73FC9B00693645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C161DD9C1B73FC9B00693645 /* main.m */; };
-		C161DDA01B73FC9B00693645 /* NKOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C161DD9F1B73FC9B00693645 /* NKOAppDelegate.m */; };
-		C161DDA31B73FC9B00693645 /* NKOExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = C161DDA21B73FC9B00693645 /* NKOExampleController.m */; };
-		C161DDA61B73FC9B00693645 /* NKOStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C161DDA41B73FC9B00693645 /* NKOStoryboard.storyboard */; };
-		C161DDA81B73FC9B00693645 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C161DDA71B73FC9B00693645 /* Images.xcassets */; };
 		C161DDB71B73FC9B00693645 /* NKOActivityIndicatorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C161DDB61B73FC9B00693645 /* NKOActivityIndicatorViewTests.m */; };
-		C161DDC21B73FCC000693645 /* NKOActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C161DDC11B73FCC000693645 /* NKOActivityIndicatorView.m */; };
-		C161DDC51B7561F100693645 /* NKOActivityIndicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C161DDC41B7561F100693645 /* NKOActivityIndicatorLayer.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		079163521D660C4900E7B49D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C161DD8F1B73FC9B00693645 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0791634C1D660C4900E7B49D;
-			remoteInfo = NKOActivityIndicatorView;
-		};
-		C161DDB11B73FC9B00693645 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C161DD8F1B73FC9B00693645 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C161DD961B73FC9B00693645;
-			remoteInfo = LYActivityIndicatorView;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		079163591D660C4900E7B49D /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				079163551D660C4900E7B49D /* NKOActivityIndicatorView.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0791634D1D660C4900E7B49D /* NKOActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKOActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,14 +21,8 @@
 		079163511D660C4900E7B49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0791635C1D660DFF00E7B49D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0791635E1D660E0600E7B49D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C161DD971B73FC9B00693645 /* NKO AIV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NKO AIV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C161DD9B1B73FC9B00693645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C161DD9C1B73FC9B00693645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C161DD9E1B73FC9B00693645 /* NKOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKOAppDelegate.h; sourceTree = "<group>"; };
-		C161DD9F1B73FC9B00693645 /* NKOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKOAppDelegate.m; sourceTree = "<group>"; };
-		C161DDA11B73FC9B00693645 /* NKOExampleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKOExampleController.h; sourceTree = "<group>"; };
-		C161DDA21B73FC9B00693645 /* NKOExampleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKOExampleController.m; sourceTree = "<group>"; };
-		C161DDA51B73FC9B00693645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NKOStoryboard.storyboard; sourceTree = "<group>"; };
 		C161DDA71B73FC9B00693645 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C161DDB01B73FC9B00693645 /* NKOActivityIndicatorViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NKOActivityIndicatorViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C161DDB51B73FC9B00693645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,14 +40,6 @@
 			files = (
 				0791635F1D660E0600E7B49D /* Foundation.framework in Frameworks */,
 				0791635D1D660DFF00E7B49D /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C161DD941B73FC9B00693645 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				079163541D660C4900E7B49D /* NKOActivityIndicatorView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +77,6 @@
 		C161DD981B73FC9B00693645 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C161DD971B73FC9B00693645 /* NKO AIV.app */,
 				C161DDB01B73FC9B00693645 /* NKOActivityIndicatorViewTests.xctest */,
 				0791634D1D660C4900E7B49D /* NKOActivityIndicatorView.framework */,
 			);
@@ -141,7 +86,6 @@
 		C161DD991B73FC9B00693645 /* NKOActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				C1666D301B76520E0093B6E7 /* Example */,
 				C161DDC31B7561F100693645 /* NKOActivityIndicatorLayer.h */,
 				C161DDC41B7561F100693645 /* NKOActivityIndicatorLayer.m */,
 				C161DDC01B73FCC000693645 /* NKOActivityIndicatorView.h */,
@@ -178,18 +122,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C1666D301B76520E0093B6E7 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				C161DD9E1B73FC9B00693645 /* NKOAppDelegate.h */,
-				C161DD9F1B73FC9B00693645 /* NKOAppDelegate.m */,
-				C161DDA11B73FC9B00693645 /* NKOExampleController.h */,
-				C161DDA21B73FC9B00693645 /* NKOExampleController.m */,
-				C161DDA41B73FC9B00693645 /* NKOStoryboard.storyboard */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -222,25 +154,6 @@
 			productReference = 0791634D1D660C4900E7B49D /* NKOActivityIndicatorView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C161DD961B73FC9B00693645 /* NKOActivityIndicatorViewDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C161DDBA1B73FC9B00693645 /* Build configuration list for PBXNativeTarget "NKOActivityIndicatorViewDemo" */;
-			buildPhases = (
-				C161DD931B73FC9B00693645 /* Sources */,
-				C161DD941B73FC9B00693645 /* Frameworks */,
-				C161DD951B73FC9B00693645 /* Resources */,
-				079163591D660C4900E7B49D /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				079163531D660C4900E7B49D /* PBXTargetDependency */,
-			);
-			name = NKOActivityIndicatorViewDemo;
-			productName = LYActivityIndicatorView;
-			productReference = C161DD971B73FC9B00693645 /* NKO AIV.app */;
-			productType = "com.apple.product-type.application";
-		};
 		C161DDAF1B73FC9B00693645 /* NKOActivityIndicatorViewTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C161DDBD1B73FC9B00693645 /* Build configuration list for PBXNativeTarget "NKOActivityIndicatorViewTests" */;
@@ -252,7 +165,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				C161DDB21B73FC9B00693645 /* PBXTargetDependency */,
 			);
 			name = NKOActivityIndicatorViewTests;
 			productName = LYActivityIndicatorViewTests;
@@ -271,9 +183,6 @@
 				TargetAttributes = {
 					0791634C1D660C4900E7B49D = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					C161DD961B73FC9B00693645 = {
-						CreatedOnToolsVersion = 6.4;
 					};
 					C161DDAF1B73FC9B00693645 = {
 						CreatedOnToolsVersion = 6.4;
@@ -295,7 +204,6 @@
 			projectRoot = "";
 			targets = (
 				0791634C1D660C4900E7B49D /* NKOActivityIndicatorView */,
-				C161DD961B73FC9B00693645 /* NKOActivityIndicatorViewDemo */,
 				C161DDAF1B73FC9B00693645 /* NKOActivityIndicatorViewTests */,
 			);
 		};
@@ -306,15 +214,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C161DD951B73FC9B00693645 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C161DDA61B73FC9B00693645 /* NKOStoryboard.storyboard in Resources */,
-				C161DDA81B73FC9B00693645 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,18 +236,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C161DD931B73FC9B00693645 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C161DDA31B73FC9B00693645 /* NKOExampleController.m in Sources */,
-				C161DDA01B73FC9B00693645 /* NKOAppDelegate.m in Sources */,
-				C161DDC21B73FCC000693645 /* NKOActivityIndicatorView.m in Sources */,
-				C161DDC51B7561F100693645 /* NKOActivityIndicatorLayer.m in Sources */,
-				C161DD9D1B73FC9B00693645 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C161DDAC1B73FC9B00693645 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,31 +245,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		079163531D660C4900E7B49D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0791634C1D660C4900E7B49D /* NKOActivityIndicatorView */;
-			targetProxy = 079163521D660C4900E7B49D /* PBXContainerItemProxy */;
-		};
-		C161DDB21B73FC9B00693645 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C161DD961B73FC9B00693645 /* NKOActivityIndicatorViewDemo */;
-			targetProxy = C161DDB11B73FC9B00693645 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C161DDA41B73FC9B00693645 /* NKOStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C161DDA51B73FC9B00693645 /* Base */,
-			);
-			name = NKOStoryboard.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		079163571D660C4900E7B49D /* Debug */ = {
@@ -536,30 +398,6 @@
 			};
 			name = Release;
 		};
-		C161DDBB1B73FC9B00693645 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NKOActivityIndicatorView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nakiostudio.NKOActivityIndicatorViewDemo;
-				PRODUCT_NAME = "NKO AIV";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C161DDBC1B73FC9B00693645 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NKOActivityIndicatorView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nakiostudio.NKOActivityIndicatorViewDemo;
-				PRODUCT_NAME = "NKO AIV";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		C161DDBE1B73FC9B00693645 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -613,15 +451,6 @@
 			buildConfigurations = (
 				C161DDB81B73FC9B00693645 /* Debug */,
 				C161DDB91B73FC9B00693645 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C161DDBA1B73FC9B00693645 /* Build configuration list for PBXNativeTarget "NKOActivityIndicatorViewDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C161DDBB1B73FC9B00693645 /* Debug */,
-				C161DDBC1B73FC9B00693645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

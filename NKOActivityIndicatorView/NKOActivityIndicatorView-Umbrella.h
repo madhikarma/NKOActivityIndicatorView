@@ -6,7 +6,8 @@
 //  Copyright © 2016 Carlos Vidal. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
+@import UIKit;
 
 //! Project version number for NKOActivityIndicatorView.
 FOUNDATION_EXPORT double NKOActivityIndicatorViewVersionNumber;
@@ -16,4 +17,4 @@ FOUNDATION_EXPORT const unsigned char NKOActivityIndicatorViewVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <NKOActivityIndicatorView/PublicHeader.h>
 
-
+import "NKOActivityIndicatorView.h"

@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Carlos Vidal Pallin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
+//#import <UIKit/UIKit.h>
+@import UIKit;
 #import "NKOActivityIndicatorLayer.h"
 
 CGFloat const kSegmentLapse = 0.125f;

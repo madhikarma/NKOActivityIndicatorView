@@ -6,8 +6,10 @@
 //  Copyright (c) 2015 Carlos Vidal Pallin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <XCTest/XCTest.h>
+//#import <UIKit/UIKit.h>
+@import UIKit;
+//#import <XCTest/XCTest.h>
+@import XCTest;
 
 @interface NKOActivityIndicatorViewTests : XCTestCase
 

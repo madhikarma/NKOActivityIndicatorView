@@ -10,15 +10,13 @@ let package = Package(
     ],
     products: [
         .library(name: "NKOActivityIndicatorView",
-            targets: ["NKOActivityIndicatorView"]),
+            targets: ["NKOActivityIndicatorView"])
     ],
 	targets: [
         .target(
            name: "NKOActivityIndicatorView",
-           path: "NKOActivityIndicatorView",
-           resources: [
-               .process("Images.xcassets")
-           ]
+           path: "NKOActivityIndicatorView/Classes",
+           publicHeadersPath: "."
         )
     ]
 )
